@@ -1,0 +1,98 @@
+.intro{
+    color: blue;
+    background-color: coral;
+}
+.body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.camel{
+    border: solid;
+    border-radius: 40px;
+    margin: 20px;
+    background-color: darkgreen;
+    color: black;
+    position: relative;
+    
+}
+.camel:hover{
+    transform: scale(0.9);
+    opacity: 0.1;
+    position: relative;
+}
+
+.camel:hover p{
+    opacity: 3;
+}
+
+.chameleon{
+    border: solid;
+    border-radius: 40px;
+    background-color: darkorange;
+    color: black;
+    margin: 20px;
+}
+.chameleon:hover{
+    transform: scale(0.9);
+    opacity: 0.2;
+    position: relative;
+}
+
+
+.cicada{
+    border: solid;
+    border-radius: 40px;
+    background-color: darkslateblue;
+    color: black;
+    margin: 20px;
+}
+.cicada:hover{
+    transform: scale(0.9);
+    opacity: 0.2;
+    position: relative;
+}
+
+
+.pigeon{
+    border: solid;
+    border-radius: 40px;
+    background-color: darkgoldenrod;
+    color: black;
+    margin: 20px;
+}
+.pigeon:hover{
+    transform: scale(0.9);
+    opacity: 0.4;
+    position: relative;
+}
+
+
+.teddy{
+    border: solid;
+    border-radius: 40px;
+    background-color: khaki;
+    color: black;
+    margin: 20px;
+}
+.teddy:hover{
+    transform: scale(0.9);
+    opacity: 0.2;
+    position: relative;
+}
+
+.panda{
+    border: solid;
+    border-radius: 40px;
+    background-color: powderblue;
+    color: black;
+    margin: 20px;
+}
+.panda:hover{
+    transform: scale(0.9);
+    opacity: 0.2;
+    position: relative;
+}
+button{
+    color: blue;
+}
